@@ -12,10 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@twurple/auth": "^6.2.1",
-    "@twurple/chat": "^6.2.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/node": "^20.4.1",
     "concurrently": "^8.2.0",
