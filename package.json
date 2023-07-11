@@ -1,8 +1,9 @@
 {
-  "name": "plustwo",
-  "version": "1.0.0",
+  "name": "typescript-template",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/index.js",
@@ -11,7 +12,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@twurple/auth": "^6.2.1",
+    "@twurple/chat": "^6.2.1"
+  },
   "devDependencies": {
     "@types/node": "^20.4.1",
     "concurrently": "^8.2.0",
